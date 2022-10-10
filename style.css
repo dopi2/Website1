@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+/* //palette
+$green: #a2ccb6
+$light-peach: #ffecd9
+$peach: #ee786e
+$sand: #fceeb5
+$white: #fff */
+
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
-    /* background-image: url(./images/4952623.jpg); */
+    background-image: url(./images/Margo.jpg);
     background-repeat: no-repeat;
+    
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -38,23 +50,52 @@ body{
 }
 
 .heading{
-    margin-top: 15%;
+    margin-top: 12%;
     text-align:left;
-    /* line-height: 1.5rem; */
+    margin-left: 30px;
+    line-height: 2rem;
 }
 .heading h1{
     text-transform: uppercase;
-    margin-bottom: 10px;
-    font-family: oswald;
-    font-size: 300%;
+    margin-bottom: 30px;
+    font-family: Bona Nova;
+    font-size: 400%;
     
 }
 
 .heading p{
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 4px;
+    font-family: Bona Nova;
 }
 .heading img{
     float: right;
+    margin-right: 60px;
     margin-top: -290px;
+}
+
+.heading button{
+    margin-top: 20px;
+    padding: 10px;
+    background: tan;
+    border-radius: 20px;
+    width: 350px;
+    height: 80px;
+}
+
+.heading button:hover{
+    background-color: white;
+}
+.bottom{
+    display: inline-block;
+    flex: 1;
+}
+.bottom img{
+    display: inline-block;
+    width: 90px;
+    margin-top: 90px;
+    padding: 20px;
+    margin-left: 220px;
+    background: tan;
+    border-radius: 80px;
 }
